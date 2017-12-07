@@ -19,6 +19,8 @@ app.controller("agendaCtrl", function ($scope) {
         $scope.contactos.push( { id: clave, name: contacto.name, email: contacto.email, phone: contacto.phone } );
     });
 
+  $scope.refrescarContactos = function () {};
+  
   $scope.nuevoContacto = function () {
 
     if ($scope.nuevo.name !== '' && $scope.nuevo.email !== '' && $scope.nuevo.phone !== '') {
