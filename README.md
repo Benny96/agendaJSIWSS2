@@ -2,7 +2,7 @@
 
 ## Spanish:
 
-Este proyecto consiste en un prototipo de **agenda**, creada mediante Boostrap y con ciertas funcionalidades JavaScript.
+Este proyecto consiste en un prototipo de **agenda**, creada mediante Bootstrap y con ciertas funcionalidades JavaScript.
 
 Los integrantes del grupo somos los siguientes: <br>
 
