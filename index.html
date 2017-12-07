@@ -198,13 +198,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Acerca de...</h2>
+                    <h2>Acerca de nosotros</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h3>El Equipo</h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 text-right">
+                    <h4>Nombre</h4>
+                </div>
+                <div class="col-xs-6">
+                    <h4>Correo</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 text-right">
+                    <p>Beñat Galdós</p>
+                    <p>Garikoitz Bereciartua</p>
+                    <p>Imanol Echeverría</p>
+                    <p>Anne Idigoras</p>
+                </div>
+                <div class="col-xs-6">
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=benatgaldos@opendeusto.es" target="_blank">benatgaldos@opendeusto.es</a></p>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=gari.bereciartua@opendeusto.es" target="_blank">gari.bereciartua@opendeusto.es</a></p>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=imanol.echeverria@opendeusto.es" target="_blank">imanol.echeverria@opendeusto.es</a></p>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=anneidigoras@opendeusto.es" target="_blank">anneidigoras@opendeusto.es</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <hr class="star-light">
+                    <h3>La Universidad de Deusto</h3>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>AgendaJS es un proyecto simple en AngularJS.</p>
+                    <p>Conoce más sobre la Universidad de Deusto en las Redes Sociales:</p>
+                    <a href="https://twitter.com/deusto" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @deusto</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="fb-like" data-href="https://www.facebook.com/UDeusto/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></p>
                 </div>
             </div>
         </div>
@@ -220,7 +261,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; e-ghost 2015
+                        Copyright &copy; El Equipo 2017
                     </div>
                 </div>
             </div>
@@ -251,6 +292,20 @@
     <!-- agendaJS -->
     <script src="js/app.js"></script>
     <script src="js/agendaCtrl.js"></script>      
+
+    <!-- Twitter Widgets -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- Facebook JavaScript SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 </body>
 
 </html>
