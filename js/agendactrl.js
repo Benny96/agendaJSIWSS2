@@ -41,7 +41,7 @@ app.controller("agendaCtrl", function ($scope) {
 
   $scope.borrarContacto = function (index, key) {
 //    $scope.contactos.splice(index, 1);
-    var contactoRef = new Firebase('https://iw-ss-2.firebaseio.com/contactos'+key);
+    var contactoRef = new Firebase('https://iw-ss-2.firebaseio.com/contactos/'+key);
     contactoRef.remove(function () { // Se ejecuta al final del remove
         $timeout(function () {
         $scope.contactos.splice(index, 1);
