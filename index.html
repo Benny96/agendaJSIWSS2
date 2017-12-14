@@ -34,6 +34,26 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--JSON-LD Script-->
+    <script type="application/ld+json">
+    var json = {
+     "@context": "http://schema.org",
+     "@type": "WebPage",
+     "name": "AgendaJS",
+     "description": "Una gran agenda hecha en AngularJS, tomada como ejemplo del ejercicio hecho en clase.",
+        "publisher": {
+        "@type": "Organization", 
+        "member": 
+        [
+                {"@type": "Person", "givenName":"Beñat", "familyName": "Galdós", "gender":"male", "email": "benatgaldos@opendeusto.es"},
+                {"@type": "Person", "givenName":"Garikoitz", "familyName": "Bereciartua", "gender":"male", "email": "gari.bereciartua@opendeusto.es"},
+                {"@type": "Person", "givenName":"Imanol", "familyName": "Echeverría", "gender":"male", "email": "imanol.echeverria@opendeusto.es"},
+                {"@type": "Person", "givenName":"Anne", "familyName": "Idigoras", "gender":"female", "email": "anneidigoras@opendeusto.es"}          
+           ] }
+           }
+    }
+    </script>
+
 </head>
 
 <body id="page-top" class="index" ng-controller="agendaCtrl">
@@ -133,7 +153,7 @@
                       <p>{{ contacto.phone }}</p>
                   </div>
                   <div class="col-xs-1">
-                      <button ng-click="borrarContacto($index, contacto.id)" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"></span></button>
+                      <button ng-click="borrarContacto($index, contacto.id); refrescarContactos()" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"></span></button>
                   </div>
               </div>
             </div>
