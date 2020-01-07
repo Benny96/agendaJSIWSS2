@@ -24,4 +24,4 @@ The project was created by: <br>
 Garikoitz Bereciartua ([garibere13](https://github.com/garibere13 "Gari Bereciartua's GitHub Profile")) <br>
 Imanol Echeverría ([Echever](https://github.com/Echever "Imanol Echeverría's GitHub Profile")) <br>
 Beñat Galdós ([Benny96](https://github.com/Benny96 "Beñat Galdós' GitHub Profile")) <br>
-y Anne Idigoras ([anneidigoras](https://github.com/anneidigoras "Anne Idigoras' GitHub Profile")).
+and Anne Idigoras ([anneidigoras](https://github.com/anneidigoras "Anne Idigoras' GitHub Profile")).
